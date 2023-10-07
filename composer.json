@@ -1,0 +1,26 @@
+{
+  "name": "phicorp/mailbox",
+  "description": "mailBox: a tool for easier work with sending emails for the PHP language",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fibo",
+      "email": "thephibonacci@gmail.com"
+    }
+  ],
+  "keywords": [
+    "phi",
+    "Maya",
+    "mailBox"
+  ],
+  "autoload": {
+    "psr-4": {
+      "mailBox\\": "src/mailBox/"
+    },
+    "files": [
+      "src/mailBox/mailBoxHelper.php"
+    ]
+  }
+}
